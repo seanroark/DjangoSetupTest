@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{bc7eda53-1768-4db9-9f3b-5f5b7280bc32}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <InterpreterId>{b2121447-0056-4225-86ef-9e57593a9fff}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
+    <UseIISExpress>true</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="CONTRIBUTORS.txt" />
+    <Content Include="DjangoSetupTest\static\css\project.css" />
+    <Content Include="DjangoSetupTest\static\images\favicon.ico" />
+    <Content Include="DjangoSetupTest\static\js\project.js" />
+    <Content Include="DjangoSetupTest\templates\404.html" />
+    <Content Include="DjangoSetupTest\templates\500.html" />
+    <Content Include="DjangoSetupTest\templates\account\base.html" />
+    <Content Include="DjangoSetupTest\templates\account\email.html" />
+    <Content Include="DjangoSetupTest\templates\account\email_confirm.html" />
+    <Content Include="DjangoSetupTest\templates\account\email_confirmed.html" />
+    <Content Include="DjangoSetupTest\templates\account\login.html" />
+    <Content Include="DjangoSetupTest\templates\account\logout.html" />
+    <Content Include="DjangoSetupTest\templates\account\password_change.html" />
+    <Content Include="DjangoSetupTest\templates\account\password_reset.html" />
+    <Content Include="DjangoSetupTest\templates\account\password_reset_done.html" />
+    <Content Include="DjangoSetupTest\templates\account\password_reset_from_key.html" />
+    <Content Include="DjangoSetupTest\templates\account\password_reset_from_key_done.html" />
+    <Content Include="DjangoSetupTest\templates\account\password_set.html" />
+    <Content Include="DjangoSetupTest\templates\account\signup.html" />
+    <Content Include="DjangoSetupTest\templates\account\signup_closed.html" />
+    <Content Include="DjangoSetupTest\templates\account\verification_sent.html" />
+    <Content Include="DjangoSetupTest\templates\account\verified_email_required.html" />
+    <Content Include="DjangoSetupTest\templates\base.html" />
+    <Content Include="DjangoSetupTest\templates\pages\about.html" />
+    <Content Include="DjangoSetupTest\templates\pages\home.html" />
+    <Content Include="DjangoSetupTest\templates\users\user_detail.html" />
+    <Content Include="DjangoSetupTest\templates\users\user_form.html" />
+    <Content Include="DjangoSetupTest\templates\users\user_list.html" />
+    <Content Include="Gruntfile.js" />
+    <Content Include="requirements.txt" />
+    <Content Include="requirements\base.txt" />
+    <Content Include="requirements\local.txt" />
+    <Content Include="requirements\production.txt" />
+    <Content Include="requirements\test.txt" />
+    <Content Include="runtime.txt" />
+    <Content Include="tests\hitchreqs.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="config\settings\common.py" />
+    <Compile Include="config\settings\local.py" />
+    <Compile Include="config\settings\production.py" />
+    <Compile Include="config\settings\__init__.py" />
+    <Compile Include="config\urls.py" />
+    <Compile Include="config\wsgi.py" />
+    <Compile Include="config\__init__.py" />
+    <Compile Include="DjangoSetupTest\contrib\sites\migrations\0001_initial.py" />
+    <Compile Include="DjangoSetupTest\contrib\sites\migrations\0002_set_site_domain_and_name.py" />
+    <Compile Include="DjangoSetupTest\contrib\sites\migrations\__init__.py" />
+    <Compile Include="DjangoSetupTest\contrib\sites\__init__.py" />
+    <Compile Include="DjangoSetupTest\contrib\__init__.py" />
+    <Compile Include="DjangoSetupTest\users\adapter.py" />
+    <Compile Include="DjangoSetupTest\users\admin.py" />
+    <Compile Include="DjangoSetupTest\users\migrations\0001_initial.py" />
+    <Compile Include="DjangoSetupTest\users\migrations\__init__.py" />
+    <Compile Include="DjangoSetupTest\users\models.py" />
+    <Compile Include="DjangoSetupTest\users\tests\factories.py" />
+    <Compile Include="DjangoSetupTest\users\tests\test_admin.py" />
+    <Compile Include="DjangoSetupTest\users\tests\test_models.py" />
+    <Compile Include="DjangoSetupTest\users\tests\test_views.py" />
+    <Compile Include="DjangoSetupTest\users\tests\__init__.py" />
+    <Compile Include="DjangoSetupTest\users\urls.py" />
+    <Compile Include="DjangoSetupTest\users\views.py" />
+    <Compile Include="DjangoSetupTest\users\__init__.py" />
+    <Compile Include="DjangoSetupTest\__init__.py" />
+    <Compile Include="docs\conf.py" />
+    <Compile Include="docs\__init__.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="tests\engine.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="config" />
+    <Folder Include="config\settings" />
+    <Folder Include="DjangoSetupTest" />
+    <Folder Include="DjangoSetupTest\contrib" />
+    <Folder Include="DjangoSetupTest\contrib\sites" />
+    <Folder Include="DjangoSetupTest\contrib\sites\migrations" />
+    <Folder Include="DjangoSetupTest\static\" />
+    <Folder Include="DjangoSetupTest\static\css" />
+    <Folder Include="DjangoSetupTest\static\images" />
+    <Folder Include="DjangoSetupTest\static\js" />
+    <Folder Include="DjangoSetupTest\templates" />
+    <Folder Include="DjangoSetupTest\templates\account" />
+    <Folder Include="DjangoSetupTest\templates\pages" />
+    <Folder Include="DjangoSetupTest\templates\users" />
+    <Folder Include="DjangoSetupTest\users" />
+    <Folder Include="DjangoSetupTest\users\migrations" />
+    <Folder Include="DjangoSetupTest\users\tests" />
+    <Folder Include="docs" />
+    <Folder Include="requirements" />
+    <Folder Include="tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>{b2121447-0056-4225-86ef-9e57593a9fff}</Id>
+      <BaseInterpreter>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</BaseInterpreter>
+      <Version>3.5</Version>
+      <Description>env (Python 64-bit 3.5)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>Amd64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:63724/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>True</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

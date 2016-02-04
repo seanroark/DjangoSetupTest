@@ -171,6 +171,6 @@ ClientBin
 *.dbmdl
 
 env/
-
+ptvs_*
 
 
